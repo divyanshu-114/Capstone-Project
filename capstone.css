@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+}
+.font{
+    font-family: 'Dotgothic16';
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    gap: 2rem;
+    padding: 5px;
+}
+.portfolio {
+    unicode-bidi: isolate;
+    letter-spacing: -4%;
+    font-size: 3vw;
+    align-content: center;
+    width: 60vw;
+    margin-left: 4vw;
+    font-weight: 250;
+    padding: 5px;
+
+
+}
+a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: -1%;
+    font-size: 2vw;
+    align-content: center;
+    font-weight: 100;
+    transition: 0.3s ease-in;
+}
+a:hover{
+    color: rgb(49, 34, 106);
+    text-shadow: 2px 2px 10px rgb(61, 52, 52);
+
+}
+.hero img{
+    border-radius: 50%;
+}
+.lower{
+    padding: 96px 96px;
+}
+    
+.hero {
+    padding: 2vw 1vw;
+    text-align: center;
+    transition: 0.3s ease;
+
+}
+.hero h1 {
+    font-size: 7vw;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.hero img {
+    border-radius: 16px;
+    width: 90vw;
+    max-width: 1470px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.grid-outer {
+    display: flex;
+    justify-content: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3vw;
+    padding: 20px;
+    width: 90vw;
+}
+.card {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.3s ease;
+}
+.card:hover , .hero:hover {
+    transform: scale(1.032);
+    cursor: pointer;
+}
+.card img:hover {
+    box-shadow: 0 0 25px 0 rgb(12, 2, 11);
+}
+.card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card p,
+.card span {
+    font-size: 1.5vw;
+    line-height: 1.1;
+    font-weight: 200;
+    margin-top: 2px;
+    font-family: "Archivo", serif;
+
+}
+.card p {
+    font-weight: 250;
+}
+.card span {
+    font-size: 1.2vw;
+    color: black;
+    font-family: "Archivo", serif;
+}
+.lowertext{
+    display: flex;
+    flex: row;
+    width: 60vw;
+
+}
+
+.lowertext  p {
+    padding-bottom: 1.042vw;
+    padding-left: 1.042vw;
+    padding-right: 1.042vw;
+    font-family: 'Dotgothic16';
+    width: 90vw;
+    text-align: left;
+    margin-left: 4.0vw;
+    font-size: 3.5vw;
+    transition: 0.3s ease;
+}
+.lowertext p:hover{
+    transform: scale(1.05);
+}
+.lowerimg img{
+    width: 100%;
+    margin-top: 2vw;
+    filter: brightness(0.9);
+    
+}
+.lowerimg{
+    position: relative;
+}
+.lowerimg p{
+    position: absolute;
+}
+.lowerimg .text{
+    position: absolute;
+    left: 5.0vw;
+    bottom: 9vw;
+    color: white;
+    font-size: 2.6vw;
+    font-weight: 300;
+}
+.textb{
+    color: white;
+    left: 5.0vw;
+    bottom: 7vw;
+    font-size: 1.8vw;
+    font-family: "Archivo", serif;
+    font-weight: 250;
+}
+.button1{
+    background-color: white;
+    border: none;
+    border-radius: 0.5vw;
+    position: absolute;
+    left: 5.0vw;
+    bottom: 3.5vw;
+    font-size: 1.3vw;
+    height: 3.5vw;
+    width: 9vw;
+    font-family: "Archivo Narrow", serif;
+    font-weight: 400;
+}
+footer{
+    display: flex;
+    margin-top: 5vw;
+    align-items: center;
+    justify-content: space-between;
+}
+footer h2{
+    margin-left: 4.0vw;
+    width: 50%;
+    font-size: 2vw;
+    font-weight: 250;
+}
+.button2{
+    background-color: white;
+    font-family: "Archivo Narrow", serif;
+    border: 1px solid black;
+    font-weight: 400;
+    border-radius: 0.5vw;
+    height: 3.5vw;
+    width: 9vw;
+    font-size: 1.5vw;
+    margin-right: 4.0vw;
+
+}
